@@ -12,14 +12,14 @@ on:
       - main
 
 env:
-  DEFAULT_TARGET_PLATFORM: 'Eclipse-2023-12'
+  DEFAULT_TARGET_PLATFORM: 'Eclipse-2024-03'
 
 jobs:
   platform:
     strategy:
       fail-fast: false
       matrix:
-        target-platform: ['Eclipse-2023-12']
+        target-platform: ['Eclipse-2024-03']
         distribution: [ temurin ]
         java-version: [ 17 ]
         maven-version: [ 3.9 ]
