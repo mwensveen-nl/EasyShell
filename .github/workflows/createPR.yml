@@ -23,8 +23,8 @@ jobs:
       with:
         script: |
           const { repo, owner } = context.repo;
-          echo "${{ context.repo }}"
-          echo "${{ owner }}"
+          echo context.repo
+          echo owner 
           const result = await github.rest.pulls.create({
             title: "PR for ${{ github.ref_name }} to main",
             owner,
