@@ -18,7 +18,8 @@ jobs:
       env:
         GH_TOKEN: ${{ github.token }}
     - run: echo "${{ github.ref_name }}"
+    - run: echo "${{ github.repository }}"
     - name: Create Pull Request
-      run: gh pr create -B main --title "title" --body "Auto created by GitHub action" -R "mwensveen-nl/EasyShell" --dry-run 
+      run: gh pr create -B main --title "PR for ${{ github.ref_name }} to main" --body "Auto created by GitHub action" -R "mwensveen-nl/EasyShell" --dry-run 
       env:
         GH_TOKEN: ${{ github.token }}
