@@ -20,3 +20,5 @@ jobs:
     - run: echo "${{ github.ref_name }}"
     - name: Create Pull Request
       run: gh pr create -B main --dry-run 
+      env:
+        GH_TOKEN: ${{ github.token }}
