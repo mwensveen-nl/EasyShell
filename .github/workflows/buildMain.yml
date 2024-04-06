@@ -7,9 +7,6 @@ on:
   push:
     branches:
       - main
-  pull_request:
-    branches:
-      - main
 
 env:
   DEFAULT_TARGET_PLATFORM: 'Eclipse-2024-03'
