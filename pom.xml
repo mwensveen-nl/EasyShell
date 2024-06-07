@@ -6,7 +6,7 @@
 
 	<groupId>de.anbos.eclipse.easyshell.group</groupId>
 	<artifactId>de.anbos.eclipse.easyshell</artifactId>
-	<version>2.4.1-SNAPSHOT</version>
+	<version>4.4.2-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>EasyShell</name>
 
@@ -21,8 +21,8 @@
 		<new.version>2.4.2-SNAPSHOT</new.version>
 		<version.milestone>8</version.milestone>
 		<tycho.version>4.0.4</tycho.version>
-		<target.platform.classifier>Eclipse-2024-03</target.platform.classifier>
-		<target.platform.url>http://download.eclipse.org/releases/2023-12</target.platform.url>
+		<target.platform.classifier>Eclipse-2024-06</target.platform.classifier>
+		<target.platform.url>http://download.eclipse.org/releases/2024-06</target.platform.url>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
